@@ -1,0 +1,10 @@
+.auth-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 96;
+    margin-inline: auto;
+    background-color: rgb(99, 99, 99);
+    border-radius: 10px;
+}

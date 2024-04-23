@@ -1,0 +1,60 @@
+.chat-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-btnGroup{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.msgInputBtn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.msgInputBtn-group button {
+    height: 100%;
+    max-width: 50px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgInputBtn-group button:hover svg {
+    color: rgb(82, 137, 234);
+}
+
+.filePreview-wrapper {
+    max-height: 150px;
+    max-width: 200px;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    background-color: gray;
+    margin-bottom: 2px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.filePreview-wrapper > svg {
+    height: 100px;
+    width: 100px;
+    color: rgb(207, 207, 207);
+}
+
+
+.filePreview {
+    object-fit: contain;
+}
+
+.filePreview-closebutton {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 99;
+}
